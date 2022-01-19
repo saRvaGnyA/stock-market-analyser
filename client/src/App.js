@@ -119,7 +119,6 @@ function Ch() {
     async function getLatestPrice() {
       try {
         let data = await getChart();
-        data = data.data;
         const gme = data.chart.result[0];
         setPrevPrice(price);
         setPrice(gme.meta.regularMarketPrice.toFixed(2));
