@@ -5,7 +5,7 @@ const { Buffer } = require("buffer/");
 
 export default App;
 
-const chartReq = "https://query1.finance.yahoo.com/v8/finance/chart/TSLA";
+const chartReq = "https://yahoo-finance-api.vercel.app/tsla";
 
 let direction;
 let price;
