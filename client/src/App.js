@@ -5,7 +5,7 @@ const { Buffer } = require("buffer/");
 
 export default App;
 
-const chartReq = "http://localhost:5000/stock/chart/tsla";
+const chartReq = "https://query1.finance.yahoo.com/v8/finance/chart/TSLA";
 
 let direction;
 let price;
